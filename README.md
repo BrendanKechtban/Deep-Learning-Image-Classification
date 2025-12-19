@@ -39,7 +39,7 @@ This project is a Convolutional Neural Network (CNN) built with TensorFlow/Keras
    python evaluate.py
    ```
 
-## This is the image of confusion matrix I got.
+## Confusion Matrix
 
 <img width="1190" height="822" alt="confusion_matrix_photo" src="https://github.com/user-attachments/assets/054578c5-9db0-4687-9863-3da675ef67d8" />
 
