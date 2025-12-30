@@ -24,7 +24,6 @@ model.compile(optimizer='adam',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
 
-# This will Train the model with augmented data
 epochs = 20
 batch_size = 64
 
