@@ -12,7 +12,6 @@ x_test = x_test / 255.0
 
 y_test = tf.keras.utils.to_categorical(y_test, 10)
 
-# This will Evaluate the model
 loss, accuracy = model.evaluate(x_test, y_test)
 print(f'Test accuracy: {accuracy * 100:.2f}%')
 
