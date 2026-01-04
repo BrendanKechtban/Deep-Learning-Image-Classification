@@ -15,7 +15,6 @@ y_test = tf.keras.utils.to_categorical(y_test, 10)
 loss, accuracy = model.evaluate(x_test, y_test)
 print(f'Test accuracy: {accuracy * 100:.2f}%')
 
-# Predictions
 y_pred = model.predict(x_test)
 y_pred_classes = np.argmax(y_pred, axis=1)
 y_true = np.argmax(y_test, axis=1)
