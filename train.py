@@ -35,5 +35,4 @@ callbacks = [
     ModelCheckpoint(filepath=os.path.join('saved_models', 'best_model.h5'), save_best_only=True)
 ]
 
-# Train the model
 model.fit(x_train, y_train, epochs=20, batch_size=64, validation_split=0.1, callbacks=callbacks)
