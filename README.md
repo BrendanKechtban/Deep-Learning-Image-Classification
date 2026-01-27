@@ -3,7 +3,7 @@
 This project is a Convolutional Neural Network (CNN) built with TensorFlow/Keras to classify images from the Fashion MNIST dataset.
 
 ## Project Structure
-- `train.py`: Train the CNN model and save the best model.
+- `train.py`: Train the CNN model and save the best model
 - `predict.py`: Use the trained model to make predictions on the test set and export results.
 - `evaluate.py`: Evaluate the model, generate a confusion matrix and save per class accuracy.
 - `requirements.txt`: List of required Python packages.
