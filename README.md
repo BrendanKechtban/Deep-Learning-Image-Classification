@@ -1,6 +1,6 @@
 # Fashion MNIST CNN Classifier
 
-This project is a Convolutional Neural Network (CNN) built with TensorFlow to classify images from the Fashion MNIST dataset.
+This project is a Convolutional Neural Network (CNN) built with TensorFlow/Keras to classify images from the Fashion MNIST dataset.
 
 ## Project Structure
 - `train.py`: Train the CNN model and save the best model
